@@ -141,6 +141,7 @@ Follow the steps below to set up Grafana dashboard:
 For more information and advanced usage of Grafana, refer to the [official Grafana documentation](https://grafana.com/docs/).
 
 ### Cilium Installation with Hubble
+![Cilium](https://avatars.githubusercontent.com/u/21054566?s=280&v=4)
 
 #### Prerequisites
 
@@ -196,6 +197,10 @@ Follow the steps below to install Cilium with Hubble on your system:
 
 
 For more information on Cilium and Hubble, refer to the [official Cilium documentation](https://docs.cilium.io/) and [official Hubble documentation](https://github.com/cilium/hubble).
+
+#### Cilium Architecture
+
+![Cilium Architecture](https://www.solo.io/wp-content/uploads/2023/01/Cilium-architecture-and-components.png)
 
 ### Policy Making in Cilium
 
