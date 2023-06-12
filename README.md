@@ -88,6 +88,7 @@ To verify the Minikube installation and check the status of the cluster, run the
     ```shell
     $ kubectl cluster-info
     ```
+    
 For more information on using Minikube and Kubernetes, refer to the [official Minikube documentation](https://minikube.sigs.k8s.io/docs/) and [official Kubernetes documentation](https://kubernetes.io/docs/home/).
 
 
