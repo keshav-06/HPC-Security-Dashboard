@@ -39,6 +39,7 @@ Follow the steps below to install Docker on your system:
 
 #### Verification
 After the installation is complete, you can verify the Docker installation by running the following command in a terminal:
+
     ```shell
     $ docker --version
     ```
@@ -51,6 +52,9 @@ Before installing Kubernetes, ensure that your system meets the following prereq
 - Operating System: Linux, macOS, or Windows
 - Processor Architecture: x86_64 (64-bit)
 - RAM: Minimum 2GB
+
+#### Kubernetes Architecture
+![K8s Architecture](https://i0.wp.com/cloudwithease.com/wp-content/uploads/2022/09/what-is-kubernetes-dp.jpg)
 
 #### Installation Steps
 
@@ -138,6 +142,7 @@ Follow the steps below to set up Grafana dashboard:
  - After configuring the data source, click on the "+" icon on the left sidebar, then select "Dashboard" > "New Dashboard".
  - Customize your dashboard by adding panels, visualizations, and queries based on your data source.
  - Save your dashboard and give it a meaningful name.
+
 For more information and advanced usage of Grafana, refer to the [official Grafana documentation](https://grafana.com/docs/).
 
 ### Cilium Installation with Hubble
@@ -293,6 +298,9 @@ To update or delete a network policy in Cilium, follow these steps:
 
 
 For more advanced usage and configuration options, refer to the [official Cilium documentation](https://docs.cilium.io/).
+
+## Conclusion
+Have Successfully installed all requirements and applied all network policies
 
 
 
