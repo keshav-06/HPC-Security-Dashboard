@@ -84,6 +84,7 @@ After the installation is complete, you can start Minikube by running the follow
     ```
 #### Verification
 To verify the Minikube installation and check the status of the cluster, run the following command:
+
     ```shell
     $ kubectl cluster-info
     ```
