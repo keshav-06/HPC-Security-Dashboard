@@ -1,0 +1,1 @@
+https://cloud.yandex.com/en/docs/managed-kubernetes/operations/cilium

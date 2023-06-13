@@ -1,0 +1,17 @@
+# run these to make file
+# cat <<EOF | kubectl create -n empire -f -
+apiVersion: "cilium.io/v2"
+kind: CiliumNetworkPolicy
+metadata:
+  name: "allow-within-namespace"
+specs:
+  - endpointSelector:
+      matchLabels: {}
+    egress:
+    - toEndpoints:
+      - matchLabels:
+          "k8s:io.kubernetes.pod.namespace": empire
+    ingress:
+    - fromEndpoints:
+      - matchLabels:
+          "k8s:io.kubernetes.pod.namespace": empire
